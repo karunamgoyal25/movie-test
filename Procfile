@@ -1,1 +1,1 @@
-web: java -jar target/movie-test-1.0-SNAPSHOT.jar server config.yml
+web: java -Ddw.server.applicationConnectors[0].port=$PORT -jar target/movie-test-1.0-SNAPSHOT.jar server config.yml
