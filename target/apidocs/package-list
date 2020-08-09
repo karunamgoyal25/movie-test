@@ -1,0 +1,6 @@
+org.example
+org.example.api
+org.example.dao
+org.example.dao.mappers
+org.example.health
+org.example.resources

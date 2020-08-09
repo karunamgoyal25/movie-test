@@ -1,0 +1,9 @@
+org/example/MovieTestApplication.class
+org/example/resources/HelloWorldResources.class
+org/example/api/Contact.class
+org/example/dao/mappers/ContactMapper.class
+org/example/resources/ContactResources.class
+org/example/health/TemplateHealthCheck.class
+org/example/MovieTestConfiguration.class
+org/example/dao/ContactDAO.class
+org/example/api/Saying.class
