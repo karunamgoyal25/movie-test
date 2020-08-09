@@ -2,7 +2,13 @@ logging:
   level: INFO
   loggers:
     org.example: DEBUG
-
+server:
+  applicationConnectors:
+    - type: http
+      port: 9000
+  adminConnectors:
+    - type: http
+      port: 9001
 
 message: This is a message defined in config.yml
 messageRepetition: 10
